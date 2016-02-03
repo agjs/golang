@@ -16,5 +16,7 @@ func main() {
 	fmt.Println("hello")
 	// greeting.Deferred()
 	greeting.Pointers()
+	greeting.PointerToStruct()
+	greeting.IfStatement(7)
 
 }
