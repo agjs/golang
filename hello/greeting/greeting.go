@@ -65,3 +65,22 @@ func CreatePrintFunction(custom string) Printer {
 func PrintCustom(s string, custom string) {
 	fmt.Println(s, custom)
 }
+
+func Looper() (numbers int) {
+	numbers = 0
+	for i := 0; i < 15; i++ {
+		numbers += i
+	}
+	return numbers
+
+}
+
+func Deferred() {
+	fmt.Println("counting")
+
+	for i := 0; i < 10; i++ {
+		defer fmt.Println(i)
+	}
+
+	fmt.Println("done")
+}
