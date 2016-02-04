@@ -10,3 +10,9 @@
  or
 - You can use Atom go-plus combined with build plugin and build it by pressing:
  - alt+cmd+b
+
+
+- Write a program where User using console can register, login, add, update and remove an item
+ * Create a Database package
+ * Create a CRUD controller
+ 
